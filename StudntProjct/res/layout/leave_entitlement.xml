@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+             android:layout_gravity="center_horizontal"
+                 android:orientation="vertical"
+              >
+
+     
+    <RadioGroup
+        android:id="@+id/rg_entitlement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio_fullday"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Full Day" />
+
+        <RadioButton
+            android:id="@+id/radio_halfday"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Half Day" />
+
+    </RadioGroup>
+    
+         <Button
+             android:id="@+id/btn_select"
+             android:layout_width="228dp"
+             android:layout_height="wrap_content"
+             android:text="select" />
+
+  </LinearLayout>    

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">I AM AN ACTIVITY....
+        
+        an alert Dialog as AN ANOTHER ACTIVITY COMES IN FRONT OF MY ACTIVITY.</string>
+        
+    <string name="app_name">AlertDialog</string>
+
+</resources>

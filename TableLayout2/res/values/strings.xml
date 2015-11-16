@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Tableexp2Activity!</string>
+    <string name="app_name">Tableexp2</string>
+   <string name="table_layout_4_open">Open...</string> 
+   <string name="table_layout_4_open_shortcut">ctrl+o</string> 
+    <string name="table_layout_4_save">Save...</string> 
+     <string name="table_layout_4_save_shortcut">ctrl+s</string> 
+      
+   
+   
+
+</resources>

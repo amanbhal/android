@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/scrollView1"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:fillViewport="true" >
+        
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_home" >
+ 
+	<include
+	    android:layout_height="wrap_content"
+	    layout="@layout/header" />
+
+	<RelativeLayout
+	    android:id="@+id/relativeLayout2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+	    <ImageView
+	        android:id="@+id/iv_employee"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginLeft="18dp"
+	        android:src="@drawable/profile_pic_default" />
+
+	    <LinearLayout
+	        android:id="@+id/linearLayout1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_toRightOf="@+id/iv_employee"
+	        android:orientation="vertical"
+	        android:paddingLeft="10dp" >
+
+	        <TextView
+	            android:id="@+id/tv_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Arun Girdhar"
+	            android:textAppearance="?android:attr/textAppearanceLarge"
+	            android:textColor="@color/Black" />
+
+	        <TextView
+	            android:id="@+id/tv_designation"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Student"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="@color/Grey"
+	            android:textStyle="bold" />
+
+	        <TextView
+	            android:id="@+id/tv_empid"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Student ID 01110403110"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="@color/Grey"
+	            android:textStyle="bold" />
+	    </LinearLayout>
+
+	</RelativeLayout>
+
+	       <LinearLayout
+	           android:id="@+id/LinearLayout03"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_marginLeft="10dp"
+	           android:layout_marginRight="10dp"
+	           android:layout_marginTop="20dp"
+	           android:background="@drawable/cell_top_normal"
+	           android:orientation="vertical" >
+
+	           <TextView
+	               android:id="@+id/TextView05"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:layout_marginRight="10dp"
+	               android:gravity="right|center_vertical"
+	               android:text="Reporting Teacher"
+	               android:textAppearance="?android:attr/textAppearanceSmall"
+	               android:textColor="@color/Grey"
+	               android:paddingLeft="20dp" />
+
+	           <TextView
+	               android:id="@+id/tv_reportingmanager"
+	               android:layout_width="wrap_content"
+	               android:layout_height="0dp"
+	               android:layout_weight="0.03"
+	               android:text="Nidhi Malik"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:textColor="@color/Black"
+	               android:paddingLeft="20dp" />
+	       </LinearLayout>
+
+	       <LinearLayout
+	           android:id="@+id/LinearLayout02"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_marginLeft="10dp"
+	           android:layout_marginRight="10dp"
+	           android:background="@drawable/cell_centre_normal"
+	           android:orientation="vertical" >
+
+	           <TextView
+	               android:id="@+id/TextView03"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:layout_marginRight="10dp"
+	               android:gravity="right|center_vertical"
+	               android:text="Department"
+	               android:textAppearance="?android:attr/textAppearanceSmall"
+	               android:textColor="@color/Grey"
+	               android:paddingLeft="20dp" />
+
+	           <TextView
+	               android:id="@+id/tv_department"
+	               android:layout_width="wrap_content"
+	               android:layout_height="0dp"
+	               android:layout_weight="0.03"
+	               android:text="Engineering IT Stream"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:textColor="@color/Black"
+	               android:paddingLeft="20dp" />
+	       </LinearLayout>
+
+	       <LinearLayout
+	           android:id="@+id/LinearLayout01"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_marginLeft="10dp"
+	           android:layout_marginRight="10dp"
+	           android:background="@drawable/cell_centre_normal"
+	           android:orientation="vertical" >
+
+	           <TextView
+	               android:id="@+id/TextView01"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:layout_marginRight="10dp"
+	               android:gravity="right|center_vertical"
+	               android:text="Birth Date"
+	               android:textAppearance="?android:attr/textAppearanceSmall"
+	               android:textColor="@color/Grey"
+	               android:paddingLeft="20dp" />
+
+	           <TextView
+	               android:id="@+id/tv_joiningdate"
+	               android:layout_width="wrap_content"
+	               android:layout_height="0dp"
+	               android:layout_weight="0.03"
+	               android:text="21 Oct 1992"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:textColor="@color/Black"
+	               android:paddingLeft="20dp" />
+	       </LinearLayout>
+   <LinearLayout
+	     android:id="@+id/linearLayout2"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_gravity="center_horizontal"
+	   	 android:layout_marginLeft="10dp"
+    	 android:layout_marginRight="10dp"
+	     android:background="@drawable/cell_bottom_normal"
+	     android:orientation="vertical" >
+	           
+	       <TextView
+	           android:id="@+id/textView2"
+	           android:layout_width="wrap_content"
+	           android:layout_height="match_parent"
+	           android:layout_marginRight="10dp"
+	           android:gravity="right|center_vertical"
+	           android:text="Technical Club"
+	           android:textAppearance="?android:attr/textAppearanceSmall"
+	           android:textColor="@color/Grey"
+	           android:paddingLeft="20dp" />
+
+	       <TextView
+	           android:id="@+id/tv_club"
+	           android:layout_width="wrap_content"
+	           android:layout_height="0dp"
+	           android:layout_weight="0.03"
+	           android:paddingLeft="20dp"
+	           android:text="IEEE"
+	           android:textAppearance="?android:attr/textAppearanceMedium"
+	           android:textColor="@color/Black" />
+
+	 </LinearLayout>
+
+	 <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold" />
+           
+	 <Button
+         android:id="@+id/btn_email"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="5dp"
+         android:gravity="left|center_vertical" 
+         android:background="@drawable/selector_cell"
+         android:text="arungirdhar@gmail.com"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="@color/Black"
+         android:paddingLeft="20dp" />
+
+	 <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold" />
+           
+	 <Button
+         android:id="@+id/btn_phone"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="5dp"
+         android:gravity="left|center_vertical" 
+         android:background="@drawable/selector_cell"
+         android:text="+91 8802016126"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="@color/Black"
+         android:paddingLeft="20dp" />
+	 
+	 <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Key Skills"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold" />
+           
+	 <TextView
+         android:id="@+id/tv_keyskills"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="5dp"
+         android:gravity="left|center_vertical" 
+         android:background="@drawable/selector_cell"
+         android:text="Android Application Development"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="@color/Black"
+         android:paddingLeft="20dp" />
+
+	 <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Project"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold" />
+           
+	 <TextView
+         android:id="@+id/tv_currentprojects"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="5dp"
+         android:gravity="left|center_vertical" 
+         android:background="@drawable/selector_cell"
+         android:text="Student Management"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="@color/Black"
+         android:paddingLeft="20dp" />
+
+	 <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Past Projects"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold" />
+           
+	 <TextView
+         android:id="@+id/tv_pastprojets"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="5dp"
+         android:gravity="left|center_vertical" 
+         android:background="@drawable/selector_cell"
+         android:text="None"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="@color/Black"
+         android:paddingLeft="20dp" />
+	 
+</LinearLayout>
+</ScrollView>

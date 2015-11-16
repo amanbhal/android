@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:text="NAME "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_span="5"
+            android:text=" " />
+        
+        </TableRow>
+     <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+         <TextView
+            android:id="@+id/textView1"
+            android:text="QUALIFICATION "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+          <EditText
+            android:id="@+id/editText1"
+            android:layout_span="5"
+            android:text=" " />
+         </TableRow>
+          <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+         <TextView
+            android:id="@+id/textView1"
+            android:text="AGE "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+          <EditText
+            android:id="@+id/editText1"
+            android:layout_span="3"
+            android:text=" " />
+         </TableRow>
+          <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+         <TextView
+            android:id="@+id/textView1"
+            android:text="AMBITION "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+          <EditText
+            android:id="@+id/editText1"
+            android:layout_span="5"
+            android:text=" " />
+         </TableRow>
+          
+     
+
+</LinearLayout>

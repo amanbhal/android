@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Linear layout !!!</string>
+    <string name="app_name">LinearlayoutExp</string>
+    <string name="NAME">NAME</string>
+    <string name="QUALIFICATION">QUALIFICATION</string>
+     <string name="AGE">AGE</string>
+       <string name="AMBITION">AMBITION</string>
+     
+
+</resources>

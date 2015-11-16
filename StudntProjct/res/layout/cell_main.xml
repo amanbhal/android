@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+        
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/selector_cell_center"
+    android:layout_gravity="center_horizontal" >
+
+    <TextView
+        android:id="@+id/tv_empname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Black"
+        android:paddingLeft="30dp" />
+
+    <TextView
+        android:id="@+id/tv_empdesignation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Bottom Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Grey" />
+                
+</LinearLayout>

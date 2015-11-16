@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+        
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+  
+     android:background="@color/White"
+     android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Search Employee by:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Black" />
+
+        <RadioGroup
+            android:id="@+id/rg_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            
+           <RadioButton
+               android:id="@+id/radio_id"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="4.68"
+               android:checked="true"
+               android:text="ID"
+               android:textColor="@color/Black" />
+
+           <RadioButton
+               android:id="@+id/radio_name"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="Name"
+               android:textColor="@color/Black"
+               android:layout_gravity="right" />
+            
+        </RadioGroup>
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Search"
+        android:singleLine="true" >
+		
+        
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.51"
+            android:background="@drawable/selector_normalbutton"
+            android:text="Search" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_normalbutton"
+            android:text="Cancel" />
+    </LinearLayout>
+
+</LinearLayout>

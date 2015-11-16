@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/scrollView1"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:fillViewport="true" > 
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_home" >
+ 
+	<include
+	    android:layout_height="wrap_content"
+	    layout="@layout/header" />
+
+	<RelativeLayout
+	    android:id="@+id/relativeLayout1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+		<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginLeft="15dp"
+		    android:layout_marginTop="10dp"
+		    android:text="Holiday Calender for the Year"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:textColor="@color/Black" />
+
+		<TextView
+		    android:id="@+id/textView2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginRight="15dp"
+		    android:text="2012"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:textColor="@color/Black"
+		    android:layout_marginTop="10dp" />
+
+	</RelativeLayout>
+            
+	    	   <LinearLayout
+	           android:id="@+id/LinearLayout03"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_marginLeft="10dp"
+	           android:layout_marginRight="10dp"
+	           
+	           android:background="@drawable/cell_top_normal"
+	           android:orientation="vertical" >
+
+
+	           <TextView
+	               android:id="@+id/tv_reportingmanager"
+	               android:layout_width="wrap_content"
+	               android:layout_height="0dp"
+	               android:layout_weight="0.03"
+	               android:text="Republic Day"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:textColor="@color/Black"
+	               android:paddingLeft="20dp" />
+	           	   
+	           	   <TextView
+	               android:id="@+id/TextView05"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:layout_marginRight="10dp"
+	               android:gravity="right|center_vertical"
+	               android:text="26 Jan -Thursday"
+	               android:textAppearance="?android:attr/textAppearanceSmall"
+	               android:textColor="@color/Grey"
+	               android:paddingLeft="20dp" />
+	           	           
+	       </LinearLayout>
+
+	       <LinearLayout
+	           android:id="@+id/LinearLayout02"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_marginLeft="10dp"
+	           android:layout_marginRight="10dp"
+	           android:background="@drawable/cell_centre_normal"
+	           android:orientation="vertical" >
+
+	           <TextView
+	               android:id="@+id/tv_department"
+	               android:layout_width="wrap_content"
+	               android:layout_height="0dp"
+	               android:layout_weight="0.03"
+	               android:text="Maha Shivaratri"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:textColor="@color/Black"
+	               android:paddingLeft="20dp" />
+	           
+	      <TextView
+	               android:id="@+id/TextView03"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:layout_marginRight="10dp"
+	               android:gravity="right|center_vertical"
+	               android:text="20 Feb -Monday"
+	               android:textAppearance="?android:attr/textAppearanceSmall"
+	               android:textColor="@color/Grey"
+	               android:paddingLeft="20dp" />
+	       </LinearLayout>
+
+	       <LinearLayout
+	           android:id="@+id/LinearLayout02"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_marginLeft="10dp"
+	           android:layout_marginRight="10dp"
+	           android:background="@drawable/cell_centre_normal"
+	           android:orientation="vertical" >
+
+	           <TextView
+	               android:id="@+id/tv_department"
+	               android:layout_width="wrap_content"
+	               android:layout_height="0dp"
+	               android:layout_weight="0.03"
+	               android:text="Holi"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:textColor="@color/Black"
+	               android:paddingLeft="20dp" />
+	           
+	      <TextView
+	               android:id="@+id/TextView03"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:layout_marginRight="10dp"
+	               android:gravity="right|center_vertical"
+	               android:text="08 Mar -Thursday"
+	               android:textAppearance="?android:attr/textAppearanceSmall"
+	               android:textColor="@color/Grey"
+	               android:paddingLeft="20dp" />
+	       </LinearLayout>
+	           
+		       <LinearLayout
+	           android:id="@+id/LinearLayout02"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_marginLeft="10dp"
+	           android:layout_marginRight="10dp"
+	           android:background="@drawable/cell_centre_normal"
+	           android:orientation="vertical" >
+
+	           <TextView
+	               android:id="@+id/tv_department"
+	               android:layout_width="wrap_content"
+	               android:layout_height="0dp"
+	               android:layout_weight="0.03"
+	               android:text="Janmashtami"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:textColor="@color/Black"
+	               android:paddingLeft="20dp" />
+	           
+	      <TextView
+	               android:id="@+id/TextView03"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:layout_marginRight="10dp"
+	               android:gravity="right|center_vertical"
+	               android:text="10 Aug -Friday"
+	               android:textAppearance="?android:attr/textAppearanceSmall"
+	               android:textColor="@color/Grey"
+	               android:paddingLeft="20dp" />
+	       </LinearLayout>
+	           
+			       <LinearLayout
+	           android:id="@+id/LinearLayout02"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_marginLeft="10dp"
+	           android:layout_marginRight="10dp"
+	           android:background="@drawable/cell_centre_normal"
+	           android:orientation="vertical" >
+
+	           <TextView
+	               android:id="@+id/tv_department"
+	               android:layout_width="wrap_content"
+	               android:layout_height="0dp"
+	               android:layout_weight="0.03"
+	               android:text="Independence Day"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:textColor="@color/Black"
+	               android:paddingLeft="20dp" />
+	           
+	      <TextView
+	               android:id="@+id/TextView03"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:layout_marginRight="10dp"
+	               android:gravity="right|center_vertical"
+	               android:text="15 Aug -Wednesday"
+	               android:textAppearance="?android:attr/textAppearanceSmall"
+	               android:textColor="@color/Grey"
+	               android:paddingLeft="20dp" />
+	       </LinearLayout>
+	       
+			       <LinearLayout
+	           android:id="@+id/LinearLayout02"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_marginLeft="10dp"
+	           android:layout_marginRight="10dp"
+	           android:background="@drawable/cell_centre_normal"
+	           android:orientation="vertical" >
+
+	           <TextView
+	               android:id="@+id/tv_department"
+	               android:layout_width="wrap_content"
+	               android:layout_height="0dp"
+	               android:layout_weight="0.03"
+	               android:text="Gandhi Jayanti"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:textColor="@color/Black"
+	               android:paddingLeft="20dp" />
+	           
+	      <TextView
+	               android:id="@+id/TextView03"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:layout_marginRight="10dp"
+	               android:gravity="right|center_vertical"
+	               android:text="02 Oct -Tuesday"
+	               android:textAppearance="?android:attr/textAppearanceSmall"
+	               android:textColor="@color/Grey"
+	               android:paddingLeft="20dp" />
+	       </LinearLayout>
+	       
+			           
+			       <LinearLayout
+	           android:id="@+id/LinearLayout02"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_marginLeft="10dp"
+	           android:layout_marginRight="10dp"
+	           android:background="@drawable/cell_centre_normal"
+	           android:orientation="vertical" >
+
+	           <TextView
+	               android:id="@+id/tv_department"
+	               android:layout_width="wrap_content"
+	               android:layout_height="0dp"
+	               android:layout_weight="0.03"
+	               android:text="Dussehra (Vijaya Dashami)"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:textColor="@color/Black"
+	               android:paddingLeft="20dp" />
+	           
+	      <TextView
+	               android:id="@+id/TextView03"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:layout_marginRight="10dp"
+	               android:gravity="right|center_vertical"
+	               android:text="24 Oct -Wednesday"
+	               android:textAppearance="?android:attr/textAppearanceSmall"
+	               android:textColor="@color/Grey"
+	               android:paddingLeft="20dp" />
+	       </LinearLayout>
+	       
+			           
+			           
+		       <LinearLayout
+	           android:id="@+id/LinearLayout02"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_marginLeft="10dp"
+	           android:layout_marginRight="10dp"
+	           android:background="@drawable/cell_centre_normal"
+	           android:orientation="vertical" >
+
+	           <TextView
+	               android:id="@+id/tv_department"
+	               android:layout_width="wrap_content"
+	               android:layout_height="0dp"
+	               android:layout_weight="0.03"
+	               android:text="Diwali"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:textColor="@color/Black"
+	               android:paddingLeft="20dp" />
+	           
+	      <TextView
+	               android:id="@+id/TextView03"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:layout_marginRight="10dp"
+	               android:gravity="right|center_vertical"
+	               android:text="12 Nov -Monday"
+	               android:textAppearance="?android:attr/textAppearanceSmall"
+	               android:textColor="@color/Grey"
+	               android:paddingLeft="20dp" />
+	       </LinearLayout>
+	       
+		           
+		       <LinearLayout
+	           android:id="@+id/LinearLayout02"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_marginLeft="10dp"
+	           android:layout_marginRight="10dp"                  
+	           android:background="@drawable/cell_centre_normal"
+	           android:orientation="vertical" >
+
+	           <TextView
+	               android:id="@+id/tv_department"
+	               android:layout_width="wrap_content"
+	               android:layout_height="0dp"
+	               android:layout_weight="0.03"
+	               android:text="Diwali"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:textColor="@color/Black"
+	               android:paddingLeft="20dp" />
+	           
+	      <TextView
+	               android:id="@+id/TextView03"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:layout_marginRight="10dp"
+	               android:gravity="right|center_vertical"
+	               android:text="13 Nov -Tuesday"
+	               android:textAppearance="?android:attr/textAppearanceSmall"
+	               android:textColor="@color/Grey"
+	               android:paddingLeft="20dp" />
+	       </LinearLayout>
+		           	       
+   <LinearLayout
+	     android:id="@+id/linearLayout2"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_gravity="center_horizontal"
+	   	 android:layout_marginLeft="10dp"
+    	 android:layout_marginRight="10dp"
+    	 android:layout_marginBottom="10dp"
+	     android:background="@drawable/cell_bottom_normal"
+	     android:orientation="vertical" >
+	       
+       	       <TextView
+	           android:id="@+id/tv_club"
+	           android:layout_width="wrap_content"
+	           android:layout_height="0dp"
+	           android:layout_weight="0.03"
+	           android:paddingLeft="20dp"
+	           android:text="Christmas"
+	           android:textAppearance="?android:attr/textAppearanceMedium"
+	           android:textColor="@color/Black" />
+       	       
+	       <TextView
+	           android:id="@+id/textView2"
+	           android:layout_width="wrap_content"
+	           android:layout_height="match_parent"
+	           android:layout_marginRight="10dp"
+	           android:gravity="right|center_vertical"
+	           android:text="25 Dec -Tuesday"
+	           android:textAppearance="?android:attr/textAppearanceSmall"
+	           android:textColor="@color/Grey"
+	           android:paddingLeft="20dp" />
+
+
+
+	 </LinearLayout>
+</LinearLayout>
+</ScrollView>

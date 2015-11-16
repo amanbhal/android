@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/scrollView1"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:fillViewport="true" >
+   
+        <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="vertical"
+        android:background="@color/White">
+        
+        
+       <include layout="@layout/header" />
+
+          <EditText
+              android:id="@+id/et_username"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/EmailHint"
+              android:inputType="textPersonName" >
+
+          </EditText>
+          
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/PasswordHint" >
+
+          </EditText>
+        
+        <EditText
+            android:id="@+id/et_confirmpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/ConfirmPasswordHint" >
+
+          </EditText>
+        
+
+          <Button
+              android:id="@+id/btn_add"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Add Account" />
+              
+    </LinearLayout>
+    </ScrollView>
